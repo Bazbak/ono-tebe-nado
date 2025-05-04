@@ -4,12 +4,20 @@ header{
     background-color: white;
     padding: 92px 24px 0 24px;
     gap: 36px;
-}
-.none-list {
-    list-style-type: none;
+    margin-bottom: 96px;
 }
 ul{
     list-style-type: circle;
+}
+.none-list {
+    list-style-type: none;
+    margin-left: 2px;
+    border: none;
+}
+li{
+    margin-top: 5px;
+    border-bottom: 1px solid black;
+
 }
 
 .header-logo-block {
@@ -27,33 +35,75 @@ ul{
     display: flex;
     align-items: center;
     padding-left: 25px;
-    gap: 25px;
+    gap: 34px;
 
 }
 
 .header-address{
-    margin-right: 25px;
+    /*padding-top: 7px;*/
+    /*margin-right: 37px;*/
+    font-style: normal;
+    font-size: 18px;
 }
 .cover{
     background-image: url("/images/cover.jpg");
-    margin-top: 50px;
-    height: 100vh;
+    /*margin-top: 50px;*/
+    height: 757px;
 }
 .size-letter{
+    letter-spacing: 30px;
     font-size: 100px;
+    text-transform: uppercase;
     color: white;
-    font-weight: 500;
+    font-weight: 700;
 }
 .box-letter{
     display: flex;
     flex-direction: column;
+    padding: 165px 50px 0 50px;
 }
 .aligned-text_center{
     text-align: center;
+    margin-top: 9px;
 }
 .aligned-text_right{
     text-align: end;
+    margin-top: 3px;
+    letter-spacing: 30px;
 }
 .cover {
     font-weight: 700;
+}
+.letter-spacing-extended{
+    letter-spacing: 60px;
+}
+.no-letter-spacing{
+    letter-spacing: 30px;
+}
+.none-letter{
+    letter-spacing: 0;
+}
+.cover-description{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding-top: 128px;
+    padding-left: 71px;
+    /*padding: 141px 50px 51px 78px;*/
+    word-spacing: 25px;
+    color: white;
+}
+.bet-button{
+    font-size: 22px;
+    font-weight: 500;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 12px 32px 11px 31px;
+}
+.cover-description-text{
+    margin-right: 79px;
 }
