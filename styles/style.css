@@ -1,6 +1,6 @@
 header{
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     background-color: white;
     padding: 92px 24px 0 24px;
     gap: 36px;
@@ -15,7 +15,7 @@ ul{
     border: none;
 }
 li{
-    margin-top: 5px;
+    margin-top: 7px;
     border-bottom: 1px solid black;
 
 }
@@ -24,9 +24,9 @@ li{
     flex-grow: 1;
 }
 .header-logo {
-    width: 148px;
+    width: 146px;
     display: block;
-    height: 105px;
+    height: 106px;
 }
 .header-menu{
     display: flex;
@@ -106,4 +106,119 @@ li{
 }
 .cover-description-text{
     margin-right: 79px;
+}
+.test{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.lots{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 0 24px 0 24px;
+    margin-top: 27px;
+}
+.lots__heading{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: 64px;
+    margin-top: 180px;
+
+}
+.lots__card-list{
+    width: 33%;
+    /*height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 51px 40px 48px 40px;
+    color: white;
+}
+.lots a{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.card1{
+    background-image: url("/images/card-lot-01.jpg");
+    font-size: 20px;
+}
+.card2{
+    background-image: url("/images/card-lot-02.jpg");
+    font-size: 20px;
+}
+.card3{
+    background-image: url("/images/card-lot-03.jpg");
+    font-size: 20px;
+}
+.lots__look-more-link{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    margin: 13px 0 0 65px;
+}
+.about{
+    padding: 35px 0 0 47px;
+    margin-top: 146px;
+    display: flex;
+}
+.about__logo{
+    width: 25%;
+}
+.about__logo-image{
+    margin-left: 24px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: black;
+    background-image: url(/images/logo-white.svg);
+    background-repeat: no-repeat;
+    background-size: 62%;
+    background-position: center;
+}
+.about__text{
+    margin-top: 100px;
+    margin-left: 72px;
+    width: 65%;
+    font-size: 20px;
+    font-weight: 400;
+}
+.about__text h1{
+    margin-bottom: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.text-column{
+    margin-bottom: 24px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 180px 50px 88px 50px;
+}
+.address{
+    color: black;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer__menu-list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer__social-list{
+    display: flex;
+    gap: 48px;
+}
+.footer__social-list img{
+    width: 48px;
+    height: 48px;
 }
